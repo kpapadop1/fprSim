@@ -1,0 +1,28 @@
+{
+    "COOKIE_NAME": "Butter cookie (round, 5 mm)",
+    "_COMMENT_SOURCE": "Per 100 g, commercially prepared enriched butter cookie (USDA-derived, via myfooddata.com): water 4.7, protein 6.2, fat 19.1, carbohydrate 70 (sugars ~20.4, fiber ~0.8), sodium ~286 mg (= ~0.73 g NaCl). Mapping: STARCH = carbohydrate - sugars (fiber lumped into STARCH), SALT = sodium x 2.54. Fractions are MASS fractions of the solids; FRACTIONS_BASIS = 'MASS' makes the study convert them to volume fractions (ingredient densities) and add AIR_VOLUME_FRACTION.",
+    "_COMMENT_GRID": "A 50 mm product needs a wider domain than the 50 mm default so it keeps the same ~5 mm clearance to the PML (N_PML + N_PML_MARGIN = 35 cells x dx ~0.14 mm) that the earlier 30 mm cylinder had: 50 mm + 2 x ~5 mm + margin -> 70 mm. L_Z_GRID is unchanged. Roughly doubles the cell count per run.",
+    "GRID": {
+        "L_X_GRID": 0.07,
+        "L_Y_GRID": 0.07
+    },
+    "SUT": {
+        "MODE": "INGREDIENTS",
+        "INGREDIENTS_FRACTIONS": {
+            "WATER": 0.047,
+            "PROTEIN": 0.062,
+            "FAT": 0.191,
+            "STARCH": 0.489,
+            "SUGAR": 0.204,
+            "SALT": 0.007
+        },
+        "SHAPE": "CYLINDER",
+        "SIZE": {
+            "DIAMETER": 0.05,
+            "THICKNESS": 0.005
+        },
+        "FRACTIONS_BASIS": "MASS",
+        "AIR_VOLUME_FRACTION": 0.6
+    },
+    "_COMMENT_AIR": "AIR_VOLUME_FRACTION = 0.60 (stated by Konstantin, 2026-09-21)."
+}
