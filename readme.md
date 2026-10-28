@@ -1,6 +1,6 @@
 # fprSim - Food Penetrating Radar Simulation Toolbox
 --------------------------------------------------
-FDTD-based simulation framework for mm-wave/sub-THz MIMO radar-based foreign object detection in food products for inline NDT applications. Using the gprMax Framework (https://www.gprmax.com/) it simulates the electromagnetic propagation of signals for MIMO-based antenna configurations in reflection and transmission mode, determines metrics using the complex-valued MIMO matrix and evaluates how well low-density foreign objects (e.g. PVC or PP fragments) can be detected in low-hydrated confectionery products with varying recipes (local distributions of dielectric properties).
+FDTD-based simulation framework for mm-wave/sub-THz MIMO radar detection of foreign objects in food products for inline NDT applications. Built on the gprMax solver (gprmax.com), it simulates electromagnetic wave propagation for MIMO antenna configurations in reflection and transmission mode, derives detection metrics from the complex-valued MIMO channel matrix and evaluates how reliably low-density foreign objects (e.g. PVC or PP fragments) can be detected in low-moisture confectionery products with varying recipes and internal structures, i.e. spatially varying dielectric properties.
 
 ---
 
