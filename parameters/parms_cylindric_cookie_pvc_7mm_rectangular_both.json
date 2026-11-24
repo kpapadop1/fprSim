@@ -1,0 +1,109 @@
+{
+    "SIMULATE_BEFORE_ANALYSIS": true,
+    "DELETE_OUTPUT_FILES_AFTER_SAVE": true,
+    "_COMMENT_AMP_PHASE_NOISE_FLOOR": "Real-system detectability thresholds for analyze()'s amp_noise_floor_db/phase_noise_floor_deg, read into EMSimulation.amp_noise_floor_db/phase_noise_floor_deg in __init__ - see that comment for the full Cramer-Rao-bound derivation and SNR-assumption caveat. These are placeholders (30 dB assumed per-bin SNR), not a vendor spec - replace with values derived from this sensor's actual noise figure/link budget once known.",
+    "AMP_NOISE_FLOOR_DB": 0.2,
+    "PHASE_NOISE_FLOOR_DEG": 1.3,
+    "USE_GPU": true,
+    "GPU_DEVICE": null,
+    "MSVC_BIN_PATH": null,
+    "L_X_GRID": 0.05,
+    "L_Y_GRID": 0.05,
+    "L_Z_GRID": 0.05,
+    "CELLS_PER_WAVELENGTH": 3,
+    "FREQUENCY_RANGE": [
+        77000000000.0,
+        81000000000.0
+    ],
+    "SWEEPING_TIME": 0.0001,
+    "APERTURE": 0.002,
+    "_COMMENT_MIMO_GEOMETRY": "N_TX transmitters fire sequentially (one gprMax simulation each); all N_RX receivers listen to every firing (see EMSimulation.py's _determine_electrical_fields_at_receiver()). TX_POS_RANGE's two x-offsets place all transmitters strictly LEFT of the sample's center axis (x < 0); RX_POS_RANGE places the receiver array strictly RIGHT of center (x > 0), mirrored about x=0 - adjust these four numbers together to keep that symmetry if you change the geometry. MIMO virtual-array spacing convention: RX elements spaced at lambda/2 (1.8506mm, computed at 81GHz, the band's highest frequency/smallest wavelength, as the conservative design point so the condition holds across the whole 77-81GHz band); TX elements spaced at N_RX*lambda/2 = 5*1.8506mm = 9.2529mm, so the combinatorial TX-RX virtual array is itself uniformly filled at lambda/2, synthesizing a larger effective aperture from 5+5 real elements. The 5mm near-center clearance on both sides is preserved from the prior design.",
+    "TX_POS_RANGE": [
+        [
+            -0.005,
+            -0.0420114
+        ],
+        0.0,
+        0.35
+    ],
+    "N_TX": 5,
+    "TX_AMPLITUDE": 1.0,
+    "TX_POLARIZATION": "x",
+    "RX_POS_RANGE": [
+        [
+            0.0124023,
+            0.005
+        ],
+        0.0,
+        0.35
+    ],
+    "N_RX": 5,
+    "RX_POLARIZATION": "x",
+    "N_PML": 20,
+    "N_PML_MARGIN": 15,
+    "RX_HUYGENS_SAMPLES_PER_WAVELENGTH": 3,
+    "HUYGENS_CLOSED_SURFACE": true,
+    "HUYGENS_TOP_CAP_OFFSET_CELLS": 15,
+    "NF2FF_MODE": "EXACT",
+    "ALSO_MIRRORED_RX": true,
+    "RX_HUYGENS_WALL_SAMPLES_PER_WAVELENGTH": 3,
+    "BELT": {
+        "MATERIAL": "PE",
+        "THICKNESS": 0.001
+    },
+    "SUT": {
+        "MODE": "INGREDIENTS",
+        "INGREDIENTS_FRACTIONS": {
+            "WATER": 0.04,
+            "PROTEIN": 0.06,
+            "STARCH": 0.29,
+            "FAT": 0.25,
+            "SUGAR": 0.35,
+            "SALT": 0.01
+        },
+        "SHAPE": "CYLINDER",
+        "SIZE": {
+            "DIAMETER": 0.03,
+            "THICKNESS": 0.01
+        }
+    },
+    "FOREIGN_OBJECT": {
+        "MODE": "MATERIAL",
+        "SHAPE": "RECTANGULAR",
+        "SIZE": [
+            0.007,
+            0.007,
+            0.007
+        ],
+        "POSITION_RELATIVE": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "MATERIAL": "PVC"
+    },
+    "INSECT": {
+        "SHAPE": "ELLIPSOID",
+        "SIZE": [
+            0.008,
+            0.0045,
+            0.004
+        ],
+        "POSITION_RELATIVE": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "MATERIAL": "INSECT",
+        "INGREDIENTS_FRACTIONS": {
+            "WATER": 0.6,
+            "PROTEIN": 0.2,
+            "FAT": 0.1,
+            "CHITIN": 0.06,
+            "GLYCOGEN": 0.02,
+            "SALT": 0.02
+        }
+    },
+    "PATH_INPUT_OUTPUT_FILES": "input_output_files",
+    "EXISTING_RESULTS_FOLDER": null
+}

@@ -1,0 +1,5 @@
+product,max_offset_20dB_mm,status_20dB,max_offset_30dB_mm,status_30dB,max_offset_40dB_mm,status_40dB
+Butter cookie,21.4,beyond_range,21.4,beyond_range,21.4,beyond_range
+Chocolate crisp,0.0,interpolated,21.4,beyond_range,21.4,beyond_range
+Chocolate waffle,,not_detected,21.5,beyond_range,21.5,beyond_range
+Waffle,21.5,beyond_range,21.5,beyond_range,21.5,beyond_range

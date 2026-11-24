@@ -1,0 +1,25 @@
+rx_side,snr_db,cookie,floor_phase,floor_amplitude,n_bands,n_bands_above_floor,bands_above_floor
+reflection,20,"Butter cookie (round, 5 mm)",4.0514,0.6142,5,3,59-63 / 77-81 / 96-100
+reflection,20,"Chocolate crisp (round, 10 mm)",4.0514,0.6142,5,2,22-26 / 96-100
+reflection,20,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",4.0514,0.6142,5,0,
+reflection,20,Waffle (50 x 50 x 10 mm),4.0514,0.6142,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124
+reflection,30,"Butter cookie (round, 5 mm)",1.2812,0.1942,5,4,59-63 / 77-81 / 96-100 / 120-124
+reflection,30,"Chocolate crisp (round, 10 mm)",1.2812,0.1942,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124
+reflection,30,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",1.2812,0.1942,5,4,59-63 / 77-81 / 96-100 / 120-124
+reflection,30,Waffle (50 x 50 x 10 mm),1.2812,0.1942,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124
+reflection,40,"Butter cookie (round, 5 mm)",0.4051,0.0614,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124
+reflection,40,"Chocolate crisp (round, 10 mm)",0.4051,0.0614,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124
+reflection,40,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",0.4051,0.0614,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124
+reflection,40,Waffle (50 x 50 x 10 mm),0.4051,0.0614,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124
+transmission,20,"Butter cookie (round, 5 mm)",4.0514,0.6142,5,2,59-63 / 96-100
+transmission,20,"Chocolate crisp (round, 10 mm)",4.0514,0.6142,5,2,59-63 / 96-100
+transmission,20,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",4.0514,0.6142,5,1,96-100
+transmission,20,Waffle (50 x 50 x 10 mm),4.0514,0.6142,5,1,120-124
+transmission,30,"Butter cookie (round, 5 mm)",1.2812,0.1942,5,4,59-63 / 77-81 / 96-100 / 120-124
+transmission,30,"Chocolate crisp (round, 10 mm)",1.2812,0.1942,5,4,59-63 / 77-81 / 96-100 / 120-124
+transmission,30,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",1.2812,0.1942,5,4,59-63 / 77-81 / 96-100 / 120-124
+transmission,30,Waffle (50 x 50 x 10 mm),1.2812,0.1942,5,4,59-63 / 77-81 / 96-100 / 120-124
+transmission,40,"Butter cookie (round, 5 mm)",0.4051,0.0614,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124
+transmission,40,"Chocolate crisp (round, 10 mm)",0.4051,0.0614,5,4,59-63 / 77-81 / 96-100 / 120-124
+transmission,40,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",0.4051,0.0614,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124
+transmission,40,Waffle (50 x 50 x 10 mm),0.4051,0.0614,5,5,22-26 / 59-63 / 77-81 / 96-100 / 120-124

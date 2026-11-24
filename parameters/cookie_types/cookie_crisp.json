@@ -1,0 +1,55 @@
+{
+    "COOKIE_NAME": "Chocolate crisp (round, 10 mm)",
+    "_COMMENT_SOURCE": "Composition of General Mills Cookie Crisp, per 100 g (recipal.com / USDA-derived): water 0.6, protein 5.2, fat 4.4, carbohydrate 84.5; per 26 g serving sugars 9 g, fiber 1 g, sodium 119 mg -> per 100 g sugars ~34.6, sodium ~458 mg (= ~1.16 g NaCl). STARCH = carbohydrate - sugars. These sum to 95.9 g, so fractions are normalized to 1 (the ~4 % remainder is ash/other, not modeled). MASS fractions of the solids (converted to volume fractions + air by the study).",
+    "_COMMENT_GEOMETRY": "50 mm diameter x 10 mm as specified (a 10 mm cube fits: its half-diagonal is ~7 mm).",
+    "_COMMENT_GRID": "50 mm footprint -> 70 mm domain (same ~5 mm PML clearance as the earlier 30 mm cylinder); see cookie_butter.json.",
+    "GRID": {
+        "L_X_GRID": 0.07,
+        "L_Y_GRID": 0.07
+    },
+    "SUT": {
+        "MODE": "INGREDIENTS",
+        "COMPONENTS": [
+            {
+                "NAME": "crisp dough",
+                "VOLUME_SHARE": 0.7,
+                "INGREDIENTS_FRACTIONS": {
+                    "WATER": 0.006,
+                    "PROTEIN": 0.054,
+                    "FAT": 0.046,
+                    "STARCH": 0.52,
+                    "SUGAR": 0.361,
+                    "SALT": 0.013
+                },
+                "FRACTIONS_BASIS": "MASS",
+                "AIR_VOLUME_FRACTION": 0.6
+            },
+            {
+                "NAME": "chocolate pieces",
+                "VOLUME_SHARE": 0.3,
+                "INGREDIENTS_FRACTIONS": {
+                    "WATER": 0.01,
+                    "PROTEIN": 0.077,
+                    "FAT": 0.3,
+                    "STARCH": 0.09,
+                    "SUGAR": 0.52,
+                    "SALT": 0.003
+                },
+                "FRACTIONS_BASIS": "MASS",
+                "AIR_VOLUME_FRACTION": 0.0,
+                "DISCRETE": {
+                    "SHAPE": "SPHERE",
+                    "DIAMETER": 0.006,
+                    "MIN_GAP": 0.0003,
+                    "SEED": 7
+                }
+            }
+        ],
+        "SHAPE": "CYLINDER",
+        "SIZE": {
+            "DIAMETER": 0.05,
+            "THICKNESS": 0.01
+        }
+    },
+    "_COMMENT_AIR": "Composite: 70 % crisp dough with 60 % air (Konstantin, 2026-09-21: air fraction of the crisp WITHOUT its chocolate parts) and a chocolate share of ~30 % (Konstantin, 2026-09-21; read as a VOLUME share of the whole piece), solid (no air), same milk-chocolate recipe as the chocolate layer of the chocolate-waffle (assumption - real chocolate may be darker). The chocolate is placed as DISCRETE 6 mm spheres (Konstantin, 2026-09-21: pieces ~6 mm, spherical), random layout with fixed SEED, minimum gap 0.3 mm, kept clear of the centered foreign object (10 mm keep-out cube) and identical in the baseline and all foreign-object runs. A 10 mm thick slab cannot hold the full 30 % as 6 mm spheres, so as many as fit are placed and the remaining chocolate volume stays in the dough matrix as fine crumbs (effective medium), preserving the total 30 %. CAVEAT: the dough recipe is the sourced General Mills Cookie Crisp nutrition data (cereal as sold); replace it if the product differs."
+}

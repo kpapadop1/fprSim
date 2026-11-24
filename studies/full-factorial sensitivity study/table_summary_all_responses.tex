@@ -1,0 +1,30 @@
+\begin{table*}[t]
+\centering
+\caption{ANOVA summary across all 19 response metrics for the reflection (R) and the transmission (T) study: coefficient of determination of the model in Eq.~\ref{eq:doe_model}, most significant term ($p$-value), and whether the foreign-object material reached significance ($p<0.05$). Het.: heterogeneity, Moist.: moisture, Mat.: material, Diam.: diameter.}
+\label{tab:anova_summary_all}
+\begin{tabular}{lcl cl cc}
+\hline
+Response & $R^2$ (R) & Top term (R) & $R^2$ (T) & Top term (T) & Mat.\ sig.\ (R) & Mat.\ sig.\ (T)\\
+\hline
+\texttt{mean\_dtau\_max} & 0.809 & Het.$\times$Moist. ($4.9\times10^{-12}$) & 0.992 & Heterogeneity ($1.5\times10^{-35}$) & No & No\\
+\texttt{mean\_dtau\_mean} & 0.839 & Het.$\times$Moist. ($2.1\times10^{-13}$) & 0.837 & Heterogeneity ($9.7\times10^{-11}$) & No & No\\
+\texttt{rms\_dtau\_max} & 0.740 & Het.$\times$Moist. ($4.3\times10^{-7}$) & 0.994 & Het.$\times$Moist. ($3.5\times10^{-39}$) & No & No\\
+\texttt{rms\_dtau\_mean} & 0.893 & Het.$\times$Moist. ($3.1\times10^{-15}$) & 0.998 & Moisture ($1.0\times10^{-49}$) & No & No\\
+\texttt{mean\_dmag\_max} & 0.478 & Depth$\times$Mat. ($1.6\times10^{-2}$) & 0.999 & Heterogeneity ($3.5\times10^{-53}$) & Yes & No\\
+\texttt{mean\_dmag\_mean} & 0.684 & Het.$\times$Moist. ($4.6\times10^{-8}$) & 0.994 & Heterogeneity ($8.7\times10^{-40}$) & No & No\\
+\texttt{rms\_dmag\_max} & 0.797 & Heterogeneity ($1.8\times10^{-9}$) & 0.995 & Moisture ($9.4\times10^{-41}$) & No & No\\
+\texttt{rms\_dmag\_mean} & 0.846 & Heterogeneity ($1.2\times10^{-12}$) & 0.998 & Moisture ($5.2\times10^{-47}$) & No & No\\
+\texttt{mean\_dphase\_max} & 0.476 & Moisture ($1.3\times10^{-3}$) & 0.996 & Moisture ($2.5\times10^{-42}$) & No & No\\
+\texttt{mean\_dphase\_mean} & 0.605 & Moisture ($1.7\times10^{-7}$) & 0.998 & Moisture ($2.3\times10^{-47}$) & No & No\\
+\texttt{rms\_dphase\_max} & 0.717 & Het.$\times$Moist. ($2.2\times10^{-6}$) & 0.996 & Het.$\times$Moist. ($2.9\times10^{-43}$) & No & No\\
+\texttt{rms\_dphase\_mean} & 0.887 & Het.$\times$Moist. ($8.3\times10^{-15}$) & 0.998 & Moisture ($2.8\times10^{-50}$) & No & No\\
+\texttt{n\_exceed\_max} & 0.333 & --- (none) & 0.958 & Moisture ($1.3\times10^{-20}$) & No & No\\
+\texttt{n\_exceed\_mean} & 0.689 & Diameter ($6.0\times10^{-4}$) & 1.000 & Moisture ($8.3\times10^{-82}$) & No & No\\
+\texttt{weighted\_score\_max} & 0.765 & Het.$\times$Moist. ($3.6\times10^{-8}$) & 0.999 & Moisture ($1.4\times10^{-51}$) & No & No\\
+\texttt{weighted\_score\_mean} & 0.872 & Heterogeneity ($1.1\times10^{-13}$) & 0.998 & Moisture ($2.8\times10^{-50}$) & No & No\\
+\texttt{frobenius\_rel} & 0.887 & Heterogeneity ($3.8\times10^{-15}$) & 0.998 & Moisture ($1.9\times10^{-47}$) & No & No\\
+\texttt{contrast\_real} & 1.000 & Material ($2.9\times10^{-111}$) & 1.000 & Material ($2.9\times10^{-111}$) & Yes & Yes\\
+\texttt{contrast\_complex\_mag} & 0.953 & Moisture ($1.3\times10^{-24}$) & 0.953 & Moisture ($1.3\times10^{-24}$) & Yes & Yes\\
+\hline
+\end{tabular}
+\end{table*}

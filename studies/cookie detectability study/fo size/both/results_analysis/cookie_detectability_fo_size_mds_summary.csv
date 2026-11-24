@@ -1,0 +1,9 @@
+rx_side,cookie,thickness_mm,mds_mm_rms_dphase_max,status_rms_dphase_max,mds_mm_rms_dmag_max,status_rms_dmag_max,mds_mm_combined,status_combined
+reflection,"Butter cookie (round, 5 mm)",5.0,1.6583370300642113,interpolated,1.6305998630387675,interpolated,1.544986364133363,interpolated
+reflection,"Chocolate crisp (round, 10 mm)",10.0,2.2774534618304503,interpolated,2.571610795762431,interpolated,2.2774534618304503,interpolated
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",10.0,6.128071806167723,interpolated,3.5121105338788525,interpolated,3.5121105338788525,interpolated
+reflection,Waffle (50 x 50 x 10 mm),10.0,1.7416282924144597,interpolated,1.6127955721776213,interpolated,1.6127955721776213,interpolated
+transmission,"Butter cookie (round, 5 mm)",5.0,3.6427778575158865,interpolated,3.2624155935951324,interpolated,3.262415593595132,interpolated
+transmission,"Chocolate crisp (round, 10 mm)",10.0,3.533116364961278,interpolated,3.057413905411035,interpolated,3.0574139054110345,interpolated
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",10.0,6.00849275580991,interpolated,6.516043356181774,interpolated,6.00849275580991,interpolated
+transmission,Waffle (50 x 50 x 10 mm),10.0,6.743476347799184,interpolated,6.526598902118676,interpolated,6.526598902118676,interpolated

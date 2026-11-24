@@ -1,0 +1,67 @@
+rx_side,cookie,fo_size_mm,phase_over_floor,amplitude_over_floor,combined_over_floor,n_exceed_max,n_exceed_mean
+reflection,"Butter cookie (round, 5 mm)",5.0,16.919,5.675,16.919,2.0,1.36
+reflection,"Butter cookie (round, 5 mm)",4.0,14.544,10.51,14.544,2.0,1.2
+reflection,"Butter cookie (round, 5 mm)",3.0,7.59,3.289,7.59,2.0,0.68
+reflection,"Butter cookie (round, 5 mm)",2.0,3.496,1.42,3.496,2.0,0.2
+reflection,"Butter cookie (round, 5 mm)",1.5,0.511,0.867,0.867,0.0,0.0
+reflection,"Butter cookie (round, 5 mm)",1.0,0.345,0.332,0.345,0.0,0.0
+reflection,"Chocolate crisp (round, 10 mm)",10.0,10.25,10.981,10.981,2.0,2.0
+reflection,"Chocolate crisp (round, 10 mm)",8.0,6.517,6.416,6.517,2.0,1.64
+reflection,"Chocolate crisp (round, 10 mm)",6.0,8.496,3.653,8.496,2.0,1.68
+reflection,"Chocolate crisp (round, 10 mm)",5.0,3.332,5.821,5.821,2.0,1.68
+reflection,"Chocolate crisp (round, 10 mm)",4.0,1.05,3.372,3.372,2.0,0.24
+reflection,"Chocolate crisp (round, 10 mm)",3.0,4.379,2.07,4.379,2.0,1.08
+reflection,"Chocolate crisp (round, 10 mm)",2.0,0.498,0.305,0.498,0.0,0.0
+reflection,"Chocolate crisp (round, 10 mm)",1.5,0.326,0.321,0.326,0.0,0.0
+reflection,"Chocolate crisp (round, 10 mm)",1.0,0.09,0.226,0.226,0.0,0.0
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",10.0,1.952,1.496,1.952,2.0,0.88
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",8.0,1.975,2.64,2.64,2.0,1.04
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",6.0,0.948,1.086,1.086,1.0,0.12
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",5.0,2.423,1.721,2.423,2.0,0.88
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",4.0,1.716,2.124,2.124,2.0,0.76
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",3.0,0.316,0.401,0.401,0.0,0.0
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",2.0,0.64,0.716,0.716,0.0,0.0
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",1.5,0.085,0.085,0.085,0.0,0.0
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",1.0,0.055,0.04,0.055,0.0,0.0
+reflection,Waffle (50 x 50 x 10 mm),10.0,28.815,22.012,28.815,2.0,2.0
+reflection,Waffle (50 x 50 x 10 mm),8.0,54.839,26.088,54.839,2.0,2.0
+reflection,Waffle (50 x 50 x 10 mm),6.0,7.818,4.077,7.818,2.0,0.64
+reflection,Waffle (50 x 50 x 10 mm),5.0,19.134,32.631,32.631,2.0,1.96
+reflection,Waffle (50 x 50 x 10 mm),4.0,13.927,8.391,13.927,2.0,2.0
+reflection,Waffle (50 x 50 x 10 mm),3.0,1.555,2.328,2.328,2.0,0.24
+reflection,Waffle (50 x 50 x 10 mm),2.0,2.523,6.514,6.514,2.0,0.68
+reflection,Waffle (50 x 50 x 10 mm),1.5,0.368,0.532,0.532,0.0,0.0
+reflection,Waffle (50 x 50 x 10 mm),1.0,0.418,0.266,0.418,0.0,0.0
+transmission,"Butter cookie (round, 5 mm)",5.0,2.822,2.516,2.822,2.0,0.6
+transmission,"Butter cookie (round, 5 mm)",4.0,1.32,1.678,1.678,2.0,0.44
+transmission,"Butter cookie (round, 5 mm)",3.0,0.562,0.808,0.808,0.0,0.0
+transmission,"Butter cookie (round, 5 mm)",2.0,0.154,0.244,0.244,0.0,0.0
+transmission,"Butter cookie (round, 5 mm)",1.5,0.074,0.096,0.096,0.0,0.0
+transmission,"Butter cookie (round, 5 mm)",1.0,0.019,0.023,0.023,0.0,0.0
+transmission,"Chocolate crisp (round, 10 mm)",10.0,3.942,5.222,5.222,2.0,1.44
+transmission,"Chocolate crisp (round, 10 mm)",8.0,3.526,2.108,3.526,2.0,0.96
+transmission,"Chocolate crisp (round, 10 mm)",6.0,3.712,3.612,3.712,2.0,0.84
+transmission,"Chocolate crisp (round, 10 mm)",5.0,2.526,3.207,3.207,2.0,0.6
+transmission,"Chocolate crisp (round, 10 mm)",4.0,1.468,1.942,1.942,2.0,0.48
+transmission,"Chocolate crisp (round, 10 mm)",3.0,0.603,0.954,0.954,0.0,0.0
+transmission,"Chocolate crisp (round, 10 mm)",2.0,0.243,0.27,0.27,0.0,0.0
+transmission,"Chocolate crisp (round, 10 mm)",1.5,0.104,0.097,0.104,0.0,0.0
+transmission,"Chocolate crisp (round, 10 mm)",1.0,0.029,0.025,0.029,0.0,0.0
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",10.0,8.724,5.452,8.724,2.0,1.52
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",8.0,2.259,2.084,2.259,2.0,0.64
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",6.0,0.996,0.744,0.996,0.0,0.0
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",5.0,1.688,1.302,1.688,2.0,0.48
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",4.0,1.406,0.867,1.406,1.0,0.16
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",3.0,0.832,0.652,0.832,0.0,0.0
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",2.0,0.295,0.291,0.295,0.0,0.0
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",1.5,0.092,0.116,0.116,0.0,0.0
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",1.0,0.016,0.024,0.024,0.0,0.0
+transmission,Waffle (50 x 50 x 10 mm),10.0,4.959,4.827,4.959,2.0,1.24
+transmission,Waffle (50 x 50 x 10 mm),8.0,1.816,2.602,2.602,2.0,0.88
+transmission,Waffle (50 x 50 x 10 mm),6.0,0.665,0.674,0.674,0.0,0.0
+transmission,Waffle (50 x 50 x 10 mm),5.0,1.116,1.061,1.116,1.0,0.36
+transmission,Waffle (50 x 50 x 10 mm),4.0,0.932,0.971,0.971,0.0,0.0
+transmission,Waffle (50 x 50 x 10 mm),3.0,0.407,0.576,0.576,0.0,0.0
+transmission,Waffle (50 x 50 x 10 mm),2.0,0.141,0.174,0.174,0.0,0.0
+transmission,Waffle (50 x 50 x 10 mm),1.5,0.073,0.076,0.076,0.0,0.0
+transmission,Waffle (50 x 50 x 10 mm),1.0,0.019,0.017,0.019,0.0,0.0

@@ -1,0 +1,9 @@
+rx_side,cookie,thickness_mm,fo_size_mm,max_offset_tested_mm,max_offset_mm_rms_dphase_max,status_rms_dphase_max,max_offset_mm_rms_dmag_max,status_rms_dmag_max,max_offset_mm_combined,status_combined
+reflection,"Butter cookie (round, 5 mm)",5.0,5.0,21.36943652456002,21.36943652456002,beyond_range,21.36943652456002,beyond_range,21.36943652456002,beyond_range
+reflection,"Chocolate crisp (round, 10 mm)",10.0,5.0,21.36943652456002,21.36943652456002,beyond_range,4.406228545339411,interpolated,21.36943652456002,beyond_range
+reflection,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",10.0,5.0,21.5,21.5,beyond_range,21.5,beyond_range,21.5,beyond_range
+reflection,Waffle (50 x 50 x 10 mm),10.0,5.0,21.5,21.5,beyond_range,21.5,beyond_range,21.5,beyond_range
+transmission,"Butter cookie (round, 5 mm)",5.0,5.0,21.36943652456002,21.36943652456002,beyond_range,21.36943652456002,beyond_range,21.36943652456002,beyond_range
+transmission,"Chocolate crisp (round, 10 mm)",10.0,5.0,21.36943652456002,14.025439667526562,interpolated,6.876786804652811,interpolated,21.36943652456002,beyond_range
+transmission,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",10.0,5.0,21.5,21.5,beyond_range,21.5,beyond_range,21.5,beyond_range
+transmission,Waffle (50 x 50 x 10 mm),10.0,5.0,21.5,16.45088266075835,interpolated,0.9838301805237686,interpolated,21.5,beyond_range

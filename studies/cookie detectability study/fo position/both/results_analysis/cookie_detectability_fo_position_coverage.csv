@@ -1,0 +1,5 @@
+product,n_positions,n_above_reflection_20dB,n_above_reflection_30dB,n_above_reflection_40dB,n_above_transmission_20dB,n_above_transmission_30dB,n_above_transmission_40dB
+Butter cookie,10,10,10,10,0,10,10
+Chocolate crisp,10,4,10,10,0,10,10
+Chocolate waffle,10,0,10,10,0,10,10
+Waffle,10,10,10,10,0,10,10

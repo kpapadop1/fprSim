@@ -1,0 +1,5 @@
+product,geometry,thickness_mm,composition,air_volume_fraction,water_mass_pct,n_cube_sizes,cube_sizes_mm
+Butter cookie,"cylinder, D 50 x 5 mm",5.0,homogeneous,0.6,4.7,6,5 4 3 2 1.5 1
+Chocolate crisp,"cylinder, D 50 x 10 mm",10.0,"crisp dough 70 vol% (air 0.6); chocolate pieces 30 vol% (air 0): 32 spheres (D 6 mm, 18.4 vol%) and crumbs (11.6 vol%)",0.6 / 0,0.6 / 1,9,10 8 6 5 4 3 2 1.5 1
+Chocolate waffle,"cuboid, 50 x 50 x 10 mm",10.0,"layers from TX side: 2 mm chocolate, 8 mm waffle",0 / 0.825,1 / 4,9,10 8 6 5 4 3 2 1.5 1
+Waffle,"cuboid, 50 x 50 x 10 mm",10.0,homogeneous,0.825,4,9,10 8 6 5 4 3 2 1.5 1

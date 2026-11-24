@@ -1,0 +1,5 @@
+product,mds_20dB_mm,status_20dB,mds_30dB_mm,status_30dB,mds_40dB_mm,status_40dB
+Butter cookie,,not_detected,3.22,interpolated,2.16,interpolated
+Chocolate crisp,4.9,interpolated,3.02,interpolated,2.08,interpolated
+Chocolate waffle,8.44,interpolated,3.29,interpolated,2.04,interpolated
+Waffle,8.48,interpolated,6.49,interpolated,2.42,interpolated

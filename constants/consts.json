@@ -1,0 +1,164 @@
+{
+    "MATERIAL_PROPERTIES": {
+        "PVC": {
+            "PERMITTIVITY_RELATIVE": [
+                2.9,
+                3.4
+            ],
+            "CONDUCTIVITY": [
+                0.01,
+                0.05
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "PE": {
+            "PERMITTIVITY_RELATIVE": [
+                2.25,
+                2.35
+            ],
+            "CONDUCTIVITY": [
+                0.0001,
+                0.001
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "PP": {
+            "PERMITTIVITY_RELATIVE": [
+                2.2,
+                2.3
+            ],
+            "CONDUCTIVITY": [
+                0.0001,
+                0.001
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "PS": {
+            "PERMITTIVITY_RELATIVE": [
+                2.5,
+                2.6
+            ],
+            "CONDUCTIVITY": [
+                0.0001,
+                0.001
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "AIR": {
+            "PERMITTIVITY_RELATIVE": [
+                1.0005,
+                1.0007
+            ],
+            "CONDUCTIVITY": [
+                0.0,
+                1e-14
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0,
+            "_COMMENT_EPS_STATIC_EPS_INF_TAU": "Added for EMSimulation.py MODE == 2's crude 'Porous/Layered' heterogeneity proxy, which mixes an AIR fraction into SUT INGREDIENTS_FRACTIONS via _debye_model_by_spectral_mixing() - that function indexes EPS_STATIC/EPS_INF/TAU on every fractions[k] unconditionally, regardless of DISPERSION_MODEL, so AIR needs them to be includable as an ingredient. No DISPERSION_MODEL key is set here on purpose, so AIR is still treated as non-dispersive everywhere else (e.g. get_max_relative_permittivity(), which checks for PERMITTIVITY_RELATIVE first). EPS_STATIC == EPS_INF == mean(PERMITTIVITY_RELATIVE) and TAU == 0 make air's contribution to the mix frequency-flat, i.e. equivalent to its non-dispersive PERMITTIVITY_RELATIVE.",
+            "EPS_STATIC": 1.0006,
+            "EPS_INF": 1.0006,
+            "TAU": 0.0
+        },
+        "WATER": {
+            "DISPERSION_MODEL": "DEBYE",
+            "EPS_STATIC": 78.0,
+            "EPS_INF": 4.9,
+            "TAU": 8.3e-12,
+            "CONDUCTIVITY": [
+                0.0001,
+                0.01
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "FAT": {
+            "DISPERSION_MODEL": "DEBYE",
+            "EPS_STATIC": 2.8,
+            "EPS_INF": 2.3,
+            "TAU": 2e-11,
+            "CONDUCTIVITY": [
+                1e-08,
+                1e-06
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "PROTEIN": {
+            "DISPERSION_MODEL": "DEBYE",
+            "EPS_STATIC": 4.5,
+            "EPS_INF": 2.8,
+            "TAU": 1e-11,
+            "CONDUCTIVITY": [
+                0.0001,
+                0.01
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "STARCH": {
+            "DISPERSION_MODEL": "DEBYE",
+            "EPS_STATIC": 3.8,
+            "EPS_INF": 2.6,
+            "TAU": 1e-11,
+            "CONDUCTIVITY": [
+                1e-06,
+                0.0001
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "SUGAR": {
+            "DISPERSION_MODEL": "DEBYE",
+            "EPS_STATIC": 3.3,
+            "EPS_INF": 2.9,
+            "TAU": 5e-12,
+            "CONDUCTIVITY": [
+                1e-08,
+                1e-06
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "SALT": {
+            "DISPERSION_MODEL": "DEBYE",
+            "EPS_STATIC": 6.0,
+            "EPS_INF": 5.0,
+            "TAU": 1e-12,
+            "CONDUCTIVITY": [
+                1e-10,
+                1e-08
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "CHITIN": {
+            "DISPERSION_MODEL": "DEBYE",
+            "EPS_STATIC": 4.0,
+            "EPS_INF": 2.7,
+            "TAU": 1e-11,
+            "CONDUCTIVITY": [
+                1e-07,
+                1e-05
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        },
+        "GLYCOGEN": {
+            "DISPERSION_MODEL": "DEBYE",
+            "EPS_STATIC": 4.0,
+            "EPS_INF": 2.8,
+            "TAU": 1e-11,
+            "CONDUCTIVITY": [
+                1e-07,
+                1e-05
+            ],
+            "PERMEABILITY_RELATIVE": 1.0,
+            "MAGNETIC_LOSS": 0.0
+        }
+    }
+}

@@ -1,0 +1,25 @@
+rx_side,snr_db,cookie,floor_phase,floor_amplitude,mds_mm_rms_dphase_max,status_rms_dphase_max,mds_mm_rms_dmag_max,status_rms_dmag_max,mds_mm_combined,status_combined
+reflection,20,"Butter cookie (round, 5 mm)",4.0514,0.6142,1.9658848625566108,interpolated,2.902279051760514,interpolated,1.9526495213861368,interpolated
+reflection,20,"Chocolate crisp (round, 10 mm)",4.0514,0.6142,4.935778863187644,interpolated,3.785343400605888,interpolated,2.8155765952486154,interpolated
+reflection,20,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",4.0514,0.6142,,not_detected,,not_detected,,not_detected
+reflection,20,Waffle (50 x 50 x 10 mm),4.0514,0.6142,3.286543632907258,interpolated,3.1923464194511015,interpolated,3.13781281695102,interpolated
+reflection,30,"Butter cookie (round, 5 mm)",1.2812,0.1942,1.6547201301810799,interpolated,1.6029872043981446,interpolated,1.5360596346532713,interpolated
+reflection,30,"Chocolate crisp (round, 10 mm)",1.2812,0.1942,2.27126215897705,interpolated,2.5556978386581264,interpolated,2.27126215897705,interpolated
+reflection,30,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",1.2812,0.1942,6.093143636725409,interpolated,3.4943787807363074,interpolated,3.4943787807363083,interpolated
+reflection,30,Waffle (50 x 50 x 10 mm),1.2812,0.1942,1.7378345376716697,interpolated,1.6073761898400734,interpolated,1.6073761898400734,interpolated
+reflection,40,"Butter cookie (round, 5 mm)",0.4051,0.0614,1.0,below_range,1.0,below_range,1.0,below_range
+reflection,40,"Chocolate crisp (round, 10 mm)",0.4051,0.0614,1.4794214390373577,interpolated,2.0027836855599617,interpolated,1.4259220172978169,interpolated
+reflection,40,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",0.4051,0.0614,1.8053774027305116,interpolated,1.7843646020657835,interpolated,1.7843646020657837,interpolated
+reflection,40,Waffle (50 x 50 x 10 mm),0.4051,0.0614,1.0,below_range,1.0869222333525619,interpolated,1.0,below_range
+transmission,20,"Butter cookie (round, 5 mm)",4.0514,0.6142,,not_detected,,not_detected,,not_detected
+transmission,20,"Chocolate crisp (round, 10 mm)",4.0514,0.6142,5.522846417463408,interpolated,8.775722642290877,interpolated,4.904584795923185,interpolated
+transmission,20,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",4.0514,0.6142,8.436560281861075,interpolated,8.753164799612087,interpolated,8.436560281861075,interpolated
+transmission,20,Waffle (50 x 50 x 10 mm),4.0514,0.6142,9.01962761184252,interpolated,8.493677108467159,interpolated,8.483895447674724,interpolated
+transmission,30,"Butter cookie (round, 5 mm)",1.2812,0.1942,3.6249244514989774,interpolated,3.2249848646962027,interpolated,3.2249848646962027,interpolated
+transmission,30,"Chocolate crisp (round, 10 mm)",1.2812,0.1942,3.516486490752213,interpolated,3.021347204436677,interpolated,3.021347204436677,interpolated
+transmission,30,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",1.2812,0.1942,3.291959640102555,interpolated,6.462885482833811,interpolated,3.2919596401025544,interpolated
+transmission,30,Waffle (50 x 50 x 10 mm),1.2812,0.1942,6.715368062587858,interpolated,6.485993694080583,interpolated,6.485993694080583,interpolated
+transmission,40,"Butter cookie (round, 5 mm)",0.4051,0.0614,2.4939767024668567,interpolated,2.1616619755473607,interpolated,2.1616619755473607,interpolated
+transmission,40,"Chocolate crisp (round, 10 mm)",0.4051,0.0614,2.2353065389370097,interpolated,2.0847822257941484,interpolated,2.084782225794149,interpolated
+transmission,40,"Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",0.4051,0.0614,2.0444950388195107,interpolated,2.0537658043673557,interpolated,2.0417799982579314,interpolated
+transmission,40,Waffle (50 x 50 x 10 mm),0.4051,0.0614,2.7072949746756394,interpolated,2.424028346046156,interpolated,2.424028346046156,interpolated

@@ -1,0 +1,51 @@
+{
+    "COOKIE_NAME": "Chocolate-waffle (2 mm + 8 mm, 50 x 50 mm)",
+    "_COMMENT_LAYERS": "Two-layer product, chocolate on the TX (top) side. LAYERS are listed TOP to BOTTOM; SIZE's thickness must equal the layer sum (checked in EMSimulation.__init__). Each layer gets its own Debye mixture and its own gprMax material/geometry (sut_0, sut_1, ...). The centered foreign object (POSITION_RELATIVE z = 0.5 -> 5 mm above the belt) therefore sits in the 8 mm waffle layer.",
+    "_COMMENT_SOURCE_CHOCOLATE": "Milk chocolate, typical literature values (~1 % water, ~7.7 % protein, ~30 % fat, ~52 % sugar, remaining carbohydrate/cocoa solids lumped into STARCH, ~0.3 % salt). The page fetched for this product failed, so these are NOT taken from a fetched source - verify against the supplier's spec sheet.",
+    "_COMMENT_SOURCE_WAFFLE": "Same estimate as cookie_waffle.json (including the porosity caveat).",
+    "_COMMENT_GRID": "50 mm footprint -> 70 mm domain (same ~5 mm PML clearance as the earlier 30 mm cylinder); see cookie_butter.json.",
+    "GRID": {
+        "L_X_GRID": 0.07,
+        "L_Y_GRID": 0.07
+    },
+    "SUT": {
+        "MODE": "INGREDIENTS",
+        "LAYERS": [
+            {
+                "NAME": "chocolate",
+                "THICKNESS": 0.002,
+                "INGREDIENTS_FRACTIONS": {
+                    "WATER": 0.01,
+                    "PROTEIN": 0.077,
+                    "FAT": 0.3,
+                    "STARCH": 0.09,
+                    "SUGAR": 0.52,
+                    "SALT": 0.003
+                },
+                "FRACTIONS_BASIS": "MASS",
+                "AIR_VOLUME_FRACTION": 0.0
+            },
+            {
+                "NAME": "waffle",
+                "THICKNESS": 0.008,
+                "INGREDIENTS_FRACTIONS": {
+                    "WATER": 0.04,
+                    "PROTEIN": 0.09,
+                    "FAT": 0.03,
+                    "STARCH": 0.81,
+                    "SUGAR": 0.02,
+                    "SALT": 0.01
+                },
+                "FRACTIONS_BASIS": "MASS",
+                "AIR_VOLUME_FRACTION": 0.825
+            }
+        ],
+        "SHAPE": "RECTANGULAR",
+        "SIZE": [
+            0.05,
+            0.05,
+            0.01
+        ]
+    },
+    "_COMMENT_AIR": "Chocolate layer: solid (AIR_VOLUME_FRACTION 0). Waffle layer: 0.825, midpoint of the 77-88 % range stated by Konstantin (2026-09-21) - see cookie_waffle.json. Recipes are MASS fractions of the solids (converted to volume fractions + air by the study)."
+}

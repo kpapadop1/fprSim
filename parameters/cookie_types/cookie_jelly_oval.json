@@ -1,0 +1,128 @@
+{
+    "COOKIE_NAME": "Jelly cookie (oval 60 x 40 mm, 10 mm)",
+    "_COMMENT_SHAPE": "Shortbread cookie with a jelly centre (photo 2026-10-12). SHAPE 'FREEFORM': oval 60 mm along the belt (x) x 40 mm across (y) (stated 2026-10-19), ~10 mm thick, scalloped rim, rounded edges, top surface uneven by about +-1 mm (stated by Konstantin). Scallop count/depth, edge radii and the jelly's centre/size are read off the photo (estimates). The four sides (+-x, +-y) are pushed 2.5 mm towards the centre (SIDE_PINCH, stated: sides compressed); the jelly outline is wobbled by up to 12 % (IRREGULARITY, stated: uneven blob).",
+    "_COMMENT_JELLY": "Jelly blob 20 x 15 mm in the cookie centre, flat bottom 1 mm above the belt; thickness rising from 2 mm in the centre to 4 mm at the inner rim (stated 2026-10-20): TOP_OFFSET 5 mm (top 5 mm above the belt at the edge), TOP_SAG 2 mm (3 mm in the centre), DEPTH 2 mm; outline wobbled by up to 12 % (IRREGULARITY). Recipe: water 2 % instead of 15 % (attenuates less than the cookie, as measured, 2026-10-17); sugar 94.5 %, STARCH 2.3 %, PROTEIN/SALT 0.6 % each.",
+    "_COMMENT_DOUGH": "Core: puff pastry (stated 2026-10-19): LAMINATION = 10 sheets (stated) of ~0.1 mm (stated 2026-10-20; snapped to 1 cell = 0.13 mm) with air gaps between, following the surfaces; the SUT recipe is the sheet material. Mass fractions (manufacturer, stated): fat 23 %, starch 36 %, sugar 27 %, protein 5.4 %, salt 1 %, fibre 2.3 % (lumped into STARCH with 0.3 % rest -> 38.6 %), water 5 % (baked, <= 5 %). AIR_VOLUME_FRACTION of the sheets is set so the cookie weighs 7 g (measured): skin 70 % air, rim and shell 0.2, jelly ~1.09 g -> 0.880.",
+    "_COMMENT_SKIN": "FREEFORM SKIN: outer 2 mm on top (outside the jelly) and bottom, bulky puff pastry (stated), 70 % air (stated minimum), 8 % water instead of 5 % (moisture from the air; estimate from biscuit sorption isotherms at ~50-65 % RH), rest of the core recipe scaled.",
+    "_COMMENT_RIM": "FREEFORM RIM: 2 mm band, full height, along the outline (OUTER) and around the jelly well (INNER): layers compressed and bent down by the punch (stated), denser than the sheets (porosity 0.2, stated 2026-10-20: denser) and moist like the skin (8 % water).",
+    "_COMMENT_FO_SHELL": "FREEFORM FO_SHELL: 1 mm layer (stated 2026-10-20) around the drilled FO hole with the rim's moisture (8 % water), compressed like the rim (porosity 0.20; stated: lower porosity, more attenuating). BOX (hole) is set by MODE 12 from the FO position and air gap.",
+    "_COMMENT_GRID": "60 mm footprint along x + ~4 mm PML clearance per side at dx(102 GHz) -> 75 mm; y: 40 mm + room for an RX line that also sees bare belt -> 60 mm.",
+    "GRID": {
+        "L_X_GRID": 0.075,
+        "L_Y_GRID": 0.06
+    },
+    "SUT": {
+        "MODE": "INGREDIENTS",
+        "INGREDIENTS_FRACTIONS": {
+            "WATER": 0.05,
+            "PROTEIN": 0.054,
+            "FAT": 0.23,
+            "STARCH": 0.386,
+            "SUGAR": 0.27,
+            "SALT": 0.01
+        },
+        "FRACTIONS_BASIS": "MASS",
+        "AIR_VOLUME_FRACTION": 0.88,
+        "SHAPE": "FREEFORM",
+        "SIZE": [
+            0.06,
+            0.04,
+            0.01
+        ],
+        "FREEFORM": {
+            "SCALLOPS": 22,
+            "SCALLOP_DEPTH": 0.0008,
+            "SIDE_PINCH": 0.0025,
+            "SIDE_PINCH_SHARPNESS": 4,
+            "EDGE_RADIUS_TOP": 0.004,
+            "EDGE_RADIUS_BOTTOM": 0.001,
+            "ROUGHNESS_AMPLITUDE": 0.0025,
+            "ROUGHNESS_MODE": "LOWER",
+            "ROUGHNESS_CORRELATION": 0.001,
+            "ROUGHNESS_SEED": 1,
+            "TILE": 0.0005,
+            "REGIONS": [
+                {
+                    "NAME": "jelly",
+                    "CENTER": [
+                        0.0,
+                        0.0
+                    ],
+                    "SIZE": [
+                        0.02,
+                        0.015
+                    ],
+                    "IRREGULARITY": 0.12,
+                    "SEED": 3,
+                    "DEPTH": 0.002,
+                    "TOP_OFFSET": 0.005,
+                    "TOP_SAG": 0.002,
+                    "EDGE_RADIUS": 0.0,
+                    "SMOOTH_TOP": true,
+                    "INGREDIENTS_FRACTIONS": {
+                        "WATER": 0.02,
+                        "SUGAR": 0.9454,
+                        "STARCH": 0.0231,
+                        "PROTEIN": 0.0058,
+                        "SALT": 0.0057
+                    },
+                    "FRACTIONS_BASIS": "MASS",
+                    "AIR_VOLUME_FRACTION": 0.0,
+                    "TO_BELT": false
+                }
+            ],
+            "SKIN": {
+                "THICKNESS": 0.002,
+                "FACES": [
+                    "TOP",
+                    "BOTTOM"
+                ],
+                "INGREDIENTS_FRACTIONS": {
+                    "WATER": 0.08,
+                    "PROTEIN": 0.0523,
+                    "FAT": 0.2227,
+                    "STARCH": 0.3738,
+                    "SUGAR": 0.2615,
+                    "SALT": 0.0097
+                },
+                "FRACTIONS_BASIS": "MASS",
+                "AIR_VOLUME_FRACTION": 0.7
+            },
+            "RIM": {
+                "THICKNESS": 0.002,
+                "INGREDIENTS_FRACTIONS": {
+                    "WATER": 0.08,
+                    "PROTEIN": 0.0523,
+                    "FAT": 0.2227,
+                    "STARCH": 0.3738,
+                    "SUGAR": 0.2615,
+                    "SALT": 0.0097
+                },
+                "FRACTIONS_BASIS": "MASS",
+                "AIR_VOLUME_FRACTION": 0.2,
+                "FACES": [
+                    "OUTER",
+                    "INNER"
+                ]
+            },
+            "FO_SHELL": {
+                "THICKNESS": 0.001,
+                "INGREDIENTS_FRACTIONS": {
+                    "WATER": 0.08,
+                    "PROTEIN": 0.0523,
+                    "FAT": 0.2227,
+                    "STARCH": 0.3738,
+                    "SUGAR": 0.2615,
+                    "SALT": 0.0097
+                },
+                "FRACTIONS_BASIS": "MASS",
+                "AIR_VOLUME_FRACTION": 0.2
+            },
+            "LAMINATION": {
+                "N_SHEETS": 10,
+                "SHEET_THICKNESS": 0.0001
+            }
+        }
+    },
+    "_COMMENT_ROUGHNESS": "Top surface: no ring groove; random height profile only below the nominal 10 mm (ROUGHNESS_MODE 'LOWER', stated 2026-10-19): top 7.5..10 mm (ROUGHNESS_AMPLITUDE 2.5 mm), correlation 1 mm, tapered to zero at the rim."
+}

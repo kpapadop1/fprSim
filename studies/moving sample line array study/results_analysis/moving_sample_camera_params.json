@@ -1,0 +1,24 @@
+{
+ "sheets": [
+  0,
+  10,
+  20
+ ],
+ "atten_db_per_sheet": 0.15,
+ "freq_ghz": 100.0,
+ "aperture_mm": 2.0,
+ "smear_x_mm": 0.2,
+ "pitch_mm": 1.5,
+ "step_mm": null,
+ "interp": "cubic",
+ "noise_rel": 0.02,
+ "gain_spread": 0.05,
+ "offset_rel": 0.01,
+ "adc_bits": 12,
+ "full_scale": 0.35,
+ "seed": 1,
+ "display": "fixed",
+ "reference_power": 439769466.5821024,
+ "reference_power_db": 86.43225072784577,
+ "reference": "median FO power outside the cookie (1076 pixels)"
+}

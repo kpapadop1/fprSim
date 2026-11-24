@@ -1,0 +1,7 @@
+rx_side,snr_db,share_percent
+reflection,20,60.0
+reflection,30,100.0
+reflection,40,100.0
+transmission,20,0.0
+transmission,30,100.0
+transmission,40,100.0

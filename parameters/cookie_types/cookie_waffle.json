@@ -1,0 +1,29 @@
+{
+    "COOKIE_NAME": "Waffle (50 x 50 x 10 mm)",
+    "_COMMENT_SOURCE": "ESTIMATE for a plain, unfilled wafer sheet (not sourced): ~4 % water, ~9 % protein, ~3 % fat, ~81 % starch (flour), ~2 % sugar, ~1 % salt. The sourced generic 'wafer' entry (foodstruct.com: water 4.5, protein 6.6, fat 14, sugar 37 g/100 g) describes a cream-filled sugar wafer, not the sheet, so it was NOT used. Replace with the manufacturer's recipe. MASS fractions of the solids (converted to volume fractions + air by the study).",
+    "_COMMENT_POROSITY": "AIR_VOLUME_FRACTION = 0.825, the midpoint of the 77-88 % range stated by Konstantin (2026-09-21). Air dominates a wafer's permittivity, so this is the single most influential number in the file; for a sensitivity check run the study with 0.77 and with 0.88 (separate output folders).",
+    "_COMMENT_GRID": "50 mm footprint -> 70 mm domain (same ~5 mm PML clearance as the earlier 30 mm cylinder); see cookie_butter.json.",
+    "GRID": {
+        "L_X_GRID": 0.07,
+        "L_Y_GRID": 0.07
+    },
+    "SUT": {
+        "MODE": "INGREDIENTS",
+        "INGREDIENTS_FRACTIONS": {
+            "WATER": 0.04,
+            "PROTEIN": 0.09,
+            "FAT": 0.03,
+            "STARCH": 0.81,
+            "SUGAR": 0.02,
+            "SALT": 0.01
+        },
+        "SHAPE": "RECTANGULAR",
+        "SIZE": [
+            0.05,
+            0.05,
+            0.01
+        ],
+        "FRACTIONS_BASIS": "MASS",
+        "AIR_VOLUME_FRACTION": 0.825
+    }
+}

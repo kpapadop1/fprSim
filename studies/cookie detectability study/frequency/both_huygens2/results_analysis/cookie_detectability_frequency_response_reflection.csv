@@ -1,0 +1,6 @@
+band,f_center_ghz,fo_size_over_lambda0,phase_deg_Butter cookie,phase_deg_Chocolate crisp,phase_deg_Chocolate waffle,phase_deg_Waffle,amplitude_db_Butter cookie,amplitude_db_Chocolate crisp,amplitude_db_Chocolate waffle,amplitude_db_Waffle
+22-26,24.0,0.40027691423778244,0.605,7.749,1.144,4.208,0.135,1.167,0.084,0.479
+59-63,61.0,1.0173704903543637,5.001,1.331,2.804,14.692,0.525,0.311,0.217,1.895
+77-81,79.0,1.3175781760327006,21.193,3.824,3.179,29.059,1.128,0.613,0.345,7.284
+96-100,98.0,1.634464066470945,10.298,19.764,1.857,93.631,2.002,3.709,0.311,4.82
+120-124,122.0,2.0347409807087273,2.337,1.891,1.158,4.994,0.234,0.532,0.216,0.704

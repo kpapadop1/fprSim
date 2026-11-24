@@ -1,0 +1,5 @@
+product,thickness_mm,mds_phase_mm,mds_amplitude_mm,mds_combined_mm,mds_over_thickness,status_phase,status_amplitude,status_combined
+Butter cookie,5.0,3.64,3.26,3.26,0.652,interpolated,interpolated,interpolated
+Chocolate crisp,10.0,3.53,3.06,3.06,0.306,interpolated,interpolated,interpolated
+Chocolate waffle,10.0,6.01,6.52,6.01,0.601,interpolated,interpolated,interpolated
+Waffle,10.0,6.74,6.53,6.53,0.653,interpolated,interpolated,interpolated
